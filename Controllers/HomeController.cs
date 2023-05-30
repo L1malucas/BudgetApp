@@ -19,7 +19,7 @@ public class HomeController : Controller
         {
             Transactions = transactions
         };
-
+        
         return View(viewModel);
     }
 }
