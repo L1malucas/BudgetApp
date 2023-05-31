@@ -1,6 +1,6 @@
 namespace BudgetApp.Models;
 
-public interface Transaction
+public class Transaction
 {
     public int Id { get; set; }
     public string Date { get; set; }

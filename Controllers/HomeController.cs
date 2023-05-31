@@ -15,7 +15,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         var transactions = _budgetRepository.GetTransactions();
-        var viewModel = new BudgetViewModel()
+        var viewModel = new BudgetViewModel
         {
             Transactions = transactions
         };
